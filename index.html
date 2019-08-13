@@ -8,7 +8,9 @@
     <title>Simple Liker</title>
   </head>
   <body>
-    <div id="modal">
+
+  <!-- Added a "hidden" attribute. A browser will not display elements that have the hidden attribute present-->
+    <div hidden id="modal">
       <h2>Error!</h2>
       <p id="modal-message"></p>
     </div>
@@ -72,5 +74,5 @@
       </footer>
     </article>
   </body>
-  <script src="main.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8" defer></script>
 </html>
